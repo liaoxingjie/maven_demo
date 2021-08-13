@@ -9,8 +9,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(allowCredentials="true")
 @RestController
-@RequestMapping(value = "/sa")
+@RequestMapping(value = "/area")
 public class AreaController {
     @Autowired
     private AreaService areaService;
